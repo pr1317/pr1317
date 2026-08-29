@@ -23,7 +23,7 @@ Peterborough, UK. MSc Computer Science, Queen Mary University of London.
 
 ### Featured project
 
-**[opslab](https://github.com/pr1317/opslab)** — an operations analytics toolkit for
+**[opslab](https://github.com/pr1317/opslab2)** — an operations analytics toolkit for
 back-office processes, in pure standard-library Python.
 
 Four modules, each built because the obvious tool gets the wrong answer:
@@ -38,6 +38,18 @@ Four modules, each built because the obvious tool gets the wrong answer:
 Case durations in its test data come from a model whose true coefficients are published in
 the source, so the analysis is *verifiable* — a test asserts the fitted estimates land
 within three standard errors of the values that generated the data.
+
+### Other projects
+
+- **[customer-churn-analytics](https://github.com/pr1317/customer-churn-analytics)** — churn
+  prediction over 20K+ transaction records in Python, Pandas and scikit-learn; EDA, feature
+  engineering and classification to 89% accuracy.
+- **[handwritten-digit-recognition](https://github.com/pr1317/handwritten-digit-recognition)** —
+  an OCR model on MNIST reaching 97% classification accuracy.
+- **[smart-traffic-management](https://github.com/pr1317/smart-traffic-management)** — computer
+  vision traffic monitoring with OpenCV and YOLO, trained on 5,000+ images to 90% vehicle
+  detection accuracy.
+- **[Portfolio](https://github.com/pr1317/Portfolio)** — selected analytics work.
 
 ### Toolbox
 
