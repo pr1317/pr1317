@@ -23,8 +23,14 @@ Peterborough, UK. MSc Computer Science, Queen Mary University of London.
 
 ### Featured project
 
-**[opslab](https://github.com/pr1317/opslab2)** — an operations analytics toolkit for
+**[opslab](https://github.com/pr1317/opslab)** — an operations analytics toolkit for
 back-office processes, in pure standard-library Python.
+
+**[See it running →](https://pr1317.github.io/opslab/)**  A sample report over a
+simulated pensions back office: the discovered process map, the control charts, the
+survival curve, the fitted coefficients against the ones that generated the data.
+Every chart on that page is drawn by the package itself. To run it on your own
+machine, `pip install git+https://github.com/pr1317/opslab` then `opslab try`.
 
 Four modules, each built because the obvious tool gets the wrong answer:
 
