@@ -70,10 +70,10 @@ within three standard errors of the values that generated the data.
   at 8.2 fps** on two CPU cores. Near-field recall is **0.33**, stated rather than hidden — the
   clip ships without labels, so an overall "detection accuracy" would be a number with nothing
   behind it.
-- **[Portfolio](https://github.com/pr1317/Portfolio)** — the source of my personal site.
-  [All four projects run live there](https://portfolio-production-f8b6.up.railway.app/):
-  score a case against the SLA model, draw a digit, score a customer, watch the traffic
-  counter run. Static files, no framework and no bundler.
+- **[Portfolio](https://github.com/pr1317/Portfolio)** — the source of my personal site at
+  **[pr1317.github.io](https://pr1317.github.io)**, where all four projects run live: score a
+  case against the SLA model, draw a digit, score a customer, watch the traffic counter run.
+  Static files, no framework and no bundler.
 
 ### Toolbox
 
