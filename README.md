@@ -26,11 +26,18 @@ Peterborough, UK. MSc Computer Science, Queen Mary University of London.
 **[opslab](https://github.com/pr1317/opslab)** — an operations analytics toolkit for
 back-office processes, in pure standard-library Python.
 
-**[See it running →](https://pr1317.github.io/opslab/)**  A sample report over a
-simulated pensions back office: the discovered process map, the control charts, the
-survival curve, the fitted coefficients against the ones that generated the data.
-Every chart on that page is drawn by the package itself. To run it on your own
-machine, `pip install git+https://github.com/pr1317/opslab` then `opslab try`.
+**[Score a case →](https://pr1317.github.io/opslab/)**  The fitted survival model,
+running in your browser over a simulated pensions back office. Set a case's
+complexity, backlog pressure and channel, pick an SLA target, and watch its
+probability of breaching move — a typical case sits at 27%, and the same case
+waiting on a third party at 83%. The map filter, the control charts and the DAX
+findings are live too. Nothing is fitted client side: the coefficients and the
+baseline hazard come from the Python, and a parity test holds the two to 1e-9.
+
+The [full static report](https://pr1317.github.io/opslab/report.html) is the same
+analysis as a document, with every chart drawn by the package itself. To run it on
+your own machine, `pip install git+https://github.com/pr1317/opslab` then
+`opslab try`.
 
 Four modules, each built because the obvious tool gets the wrong answer:
 
@@ -55,7 +62,10 @@ within three standard errors of the values that generated the data.
 - **[smart-traffic-management](https://github.com/pr1317/smart-traffic-management)** — computer
   vision traffic monitoring with OpenCV and YOLO, trained on 5,000+ images to 90% vehicle
   detection accuracy.
-- **[Portfolio](https://github.com/pr1317/Portfolio)** — selected analytics work.
+- **[Portfolio](https://github.com/pr1317/Portfolio)** — the source of my personal site.
+  [All four projects run live there](https://portfolio-production-f8b6.up.railway.app/):
+  score a case against the SLA model, draw a digit, score a customer, watch the traffic
+  counter run. Static files, no framework and no bundler.
 
 ### Toolbox
 
