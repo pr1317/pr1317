@@ -55,13 +55,21 @@ within three standard errors of the values that generated the data.
 ### Other projects
 
 - **[customer-churn-analytics](https://github.com/pr1317/customer-churn-analytics)** — churn
-  prediction over 20K+ transaction records in Python, Pandas and scikit-learn; EDA, feature
-  engineering and classification to 89% accuracy.
+  prediction on the 7,043-customer IBM Telco dataset in Python, Pandas and scikit-learn.
+  **0.846 ROC-AUC**, 75% recall at a threshold tuned to 0.56. Accuracy is the least
+  interesting number here — 73.5% of these customers stay, so "nobody leaves" scores 73.5%
+  and is worth nothing; the campaign returns **8.2×**, and stays profitable down to a 10%
+  offer-acceptance rate.
 - **[handwritten-digit-recognition](https://github.com/pr1317/handwritten-digit-recognition)** —
-  an OCR model on MNIST reaching 97% classification accuracy.
-- **[smart-traffic-management](https://github.com/pr1317/smart-traffic-management)** — computer
-  vision traffic monitoring with OpenCV and YOLO, trained on 5,000+ images to 90% vehicle
-  detection accuracy.
+  **98.48%** on the standard 10,000-image MNIST test set: 152 digits wrong, from a 784-256-10
+  network trained in 51 seconds on two CPU cores. Preprocessing beat model choice — removing
+  handwriting slant with an affine shear is worth **+3.34 points**, more than the gap between
+  the worst and best model in the whole comparison.
+- **[smart-traffic-management](https://github.com/pr1317/smart-traffic-management)** — YOLOv4-tiny
+  and a centroid tracker turning a highway camera into telemetry: **26 unique vehicles counted
+  at 8.2 fps** on two CPU cores. Near-field recall is **0.33**, stated rather than hidden — the
+  clip ships without labels, so an overall "detection accuracy" would be a number with nothing
+  behind it.
 - **[Portfolio](https://github.com/pr1317/Portfolio)** — the source of my personal site.
   [All four projects run live there](https://portfolio-production-f8b6.up.railway.app/):
   score a case against the SLA model, draw a digit, score a customer, watch the traffic
